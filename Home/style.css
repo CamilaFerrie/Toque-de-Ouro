@@ -1,0 +1,176 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+:root{
+    --font-primaria: "Newsreader";
+    --font-secundaria: "DM Sans";
+}
+
+h1{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: 1px;
+    overflow: hidden;
+}
+
+body{
+    background-color: #F5EFE7;
+}
+
+/* ---------------CABEÇARIO-------------- */
+header{
+    background-color: #D7DFCC;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.container{
+    width: 95%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* -------------BANNER------------ */
+.home_container img{
+    
+}
+
+.banner_container{
+    max-width: 1300px;
+    width: 95%;;
+    margin: 0 auto;
+    margin-bottom: 400px;
+}    
+
+.box_texto{
+    max-width: 520px;
+}
+
+.box_texto span{
+    display: inline-block;
+    margin-bottom: 40px;
+    font-family: var(--font-primaria);
+    font-weight: 600;
+    font-size: 28px;
+    color: #C79E53;
+}
+
+.box_texto p{
+    margin-bottom: 40px;
+    font-family: var(--font-secundaria);
+    font-size: 20px;
+    color: #AAAAAAAA;
+}
+
+.box_texto a{
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-family: var(--font-secundaria);
+    transition: color 0.3s; /* Deixa a mudança de cor suave */
+}
+
+.botao:hover a{
+    color: #C79E53;
+}
+
+.botao{
+    background-color: #C79E53;
+    border-radius: 5px;
+    padding: 15px 30px;
+    width: 120px;
+    cursor: pointer;         /* Muda o cursor para a "mãozinha" */
+    transition: background-color 0.3s, border-color 0.3s; 
+    border: none;
+    border: 2px solid transparent; /* Uma borda transparente do mesmo tamanho para o botão não "vibrar" */
+}
+
+.botao:hover {
+  background-color: #F5F5F5; /* Cor de fundo ao passar o mouse */
+  border-color: #C79E53;
+  
+}
+    
+
+/* ------------CATEGORIAS----------- */
+
+.categorias_container{
+    max-width: 1300px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.categorias{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.cor{
+    background-color: #F5F5F5;
+    border-radius: 200px;
+    margin-bottom: 20px;
+    transition-duration: 0.5s;
+    box-shadow: inset 0 0 0 0 #D7DFCC;
+}
+
+.cor:hover{
+    box-shadow: inset 0 0 0 100px #D7DFCC;
+}
+
+h3{
+    font-family: var(--font-secundaria);
+    font-size: 26px;
+    color: #B86B4B;
+    font-weight: 400;
+    transition-duration: 0.3s;
+}
+
+h3:hover{
+    font-weight: 600;
+}
+
+hr{
+    background-color: #E5C271;
+    border: none;
+    height: 1px;
+    width: 100px;
+}
+
+.titulo hr,
+svg{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+/* -----------RODAPÉ------------- */
+
+footer{
+    background-color: #D7DFCC;
+}
+
+.footer_rodape{
+    width: 95%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+}
