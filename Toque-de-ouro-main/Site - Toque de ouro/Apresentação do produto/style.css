@@ -50,76 +50,37 @@ header{
     align-items: center;
 }
 
-/* -------------BANNER------------ */
-.home_banner{
-    background-image: linear-gradient(to right, 
-    rgba(0, 0, 0, 0.75) 0%, 
-    rgba(0, 0, 0, 0.3) 50%, 
-    rgba(0, 0, 0, 0.05) 100%), url(../Imagens/Banner.png);
-    background-size: cover;       /* Faz a imagem cobrir toda a área sem distorcer */
-    background-position: center;  /* Mantém o centro da imagem sempre visível */
-    background-repeat: no-repeat; /* Impede que a imagem fique se repetindo */
-    width: 100%;
-    min-height: 80vh;             /* Ocupa 80% da altura da tela do usuário */
-    margin-bottom: 200px;
-  
+/* -------------PRODUTO------------ */   
+
+section{
+    padding: 80px 0;
+    margin: 0 auto;
+    width: 95%;
+    max-width: 1300px;
 }
 
-.banner_container{
-    max-width: 1300px;
-    width: 95%;;
-    margin: 0 auto;
-    padding: 120px 0 0 0;
-}    
+.caixa{
+    max-width: 1000px;
+}
 
 .box_texto{
     max-width: 600px;
 }
 
-.span1{
-    font-family: var(--font-secundaria);
-    font-size: 22px;
-    margin-bottom: 20px;
-    display: inline-block;
-    color: #ffffff;
-    font-weight: 600;
-
-}
-
-.span2{
-    display: inline-block;
-    margin-bottom: 20px;
-    font-family: var(--font-primaria);
-    font-weight: 500;
-    font-size: 36px;
-    color: #E5C271;
-    letter-spacing: 2px;
-}
 
 .box_texto p{
     margin-bottom: 40px;
     font-family: var(--font-secundaria);
     font-size: 20px;
-    color: #F5F5F5;
-    font-style: italic;
+    color: #454138;
 }
 
-.box_texto a{
-    color: #ffffff;
-    font-weight: 500;
-    letter-spacing: 3px;
-    font-family: var(--font-secundaria);
-    transition: color 0.3s; /* Deixa a mudança de cor suave */
-}
-
-.botao:hover a{
-    color: #C79E53;
-}
-
-.botao{
+button{
+    color:#F5F5F5;
+    text-transform: uppercase;
     background-color: #C79E53;
     border-radius: 5px;
-    padding: 15px 30px;
+    height: 50px;
     width: 120px;
     cursor: pointer;         /* Muda o cursor para a "mãozinha" */
     transition: background-color 0.3s, border-color 0.3s; 
@@ -127,12 +88,18 @@ header{
     border: 2px solid transparent; /* Uma borda transparente do mesmo tamanho para o botão não "vibrar" */
 }
 
-.botao:hover {
+button:hover{
   background-color: #F5F5F5; /* Cor de fundo ao passar o mouse */
   border-color: #C79E53;
+  color: #C79E53;
   
 }
-    
+
+.produto_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 /* ------------CATEGORIAS----------- */
 
@@ -140,44 +107,6 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-
-.categorias_container{
-    max-width: 1300px;
-    width: 95%;
-    margin: 0 auto;
-}
-
-.categorias{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 300px;
-}
-
-.cor{
-    background-color: #F5F5F5;
-    border-radius: 200px;
-    margin-bottom: 20px;
-    transition-duration: 0.5s;
-    box-shadow: inset 0 0 0 0 #D7DFCC;
-}
-
-.cor:hover{
-    box-shadow: inset 0 0 0 100px #D7DFCC;
-}
-
-h3{
-    font-family: var(--font-secundaria);
-    font-size: 26px;
-    color: #B86B4B;
-    font-weight: 400;
-    transition-duration: 0.3s;
-}
-
-h3:hover{
-    font-weight: 600;
 }
 
 /* ------------HISTÓRIA----------- */
