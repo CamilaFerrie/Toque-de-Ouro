@@ -182,6 +182,10 @@ h3:hover{
 
 /* ------------HISTÓRIA----------- */
 
+.home_banner{
+    margin-bottom: 70px;
+}
+
 hr{
     background-color: #E5C271;
     border: none;
@@ -313,10 +317,57 @@ footer p{
 
 /* ------------MÉDIA------------- */
 
-@media screen and (max-width:920px) {
-  .logo_footer, .logo img{
-    width: 200px;
-  }
+@media screen and (max-width:870px) {
+    
+    .home_banner{
+        min-height: 30vh; 
+    }
+
+   .banner_container{
+    padding: 40px 0 0 0;
+   }
+
+   .box_texto{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .span1{
+    font-size: 12px;
+    margin-bottom: 2px;
+   }
+
+   .span2{
+    font-size: 10px;
+    margin-bottom: 2px;
+    width: 260px;
+   }
+
+   .box_texto p{
+    font-size: 7px;
+    width: 260px;
+    margin-bottom: 10px;
+   }
+
+   .botao{
+    width: 55px;
+    padding: 5px 10px 5px 10px;
+   }
+
+   .botao a{
+    font-size:5px;
+    display: flex;
+    align-items: center;
+   }
+    
+   .logo img{
+    width: 150px;
+   } 
+
+   .logo_footer{
+    width: 150px;
+    height: 60px;
+   }
 
   .footer_rodape{
     display: flex;
@@ -328,30 +379,91 @@ footer p{
     margin-bottom: 10px;
   }
 
+  .redes_sociais svg{
+    width: 30px;
+  }
+
   .traco{
     order: 3;
     margin-bottom: 10px;
+    font-size: 6px;
   }
 
   .logo_footer_container{
     order: 1;
   }
 
+  .titulo{
+    margin-bottom: 60px;
+  }
+
   .titulo h2{
     font-size: 20px;
   }
 
-  .cor{
-    
+  ul{
+    width: 80px;
+  }
+
+  .categorias_container{
+    margin-bottom: -200px;
+  }
+
+  h3{
+    font-size: 8px;
+    display: inline-block;
   }
   
   .categorias_nav svg{
-    width: 50px;
+    width: 80px;
+    height: 80px;
   }
 
   .conteudo img{
     display: none;
   }
+
+  .imagem1, .imagem2{
+    display: none !important;
+  }
+
+  hr{
+    width: 100px;
+  }
+
+  .cor{
+    margin-bottom: 0px;
+    width: 80px;
+  }
+
+  .categorias{
+    display: flex;
+  }
+
+  .conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .texto1{
+    margin-bottom: 0px; 
+    width: 370px;
+  }
+  
+  .texto2{
+    width: 370px;
+  }
+
+  .texto1 p{
+    font-size: 8px;
+  }
+  
+  .texto2 p{
+    font-size: 8px;
+  }
+  
+
   
 
 

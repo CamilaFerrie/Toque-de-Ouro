@@ -222,4 +222,31 @@ footer p{
 
 
 /* ----------------------MÉDIA----------------------------- */
+@media screen and (max-width:768px) {
+  .form_container{
+    background: none;
+    padding: none;
+    width: 200px;
+  }
+
+  .form_container h2{
+    color: #454138;
+  }
+
+  main{
+    background-image: none;
+    background-color: #D7DFCC;
+  }
+
+  .footer_rodape{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .logo_footer, .logo img{
+    width: 200px;
+  } 
+
+}
 
