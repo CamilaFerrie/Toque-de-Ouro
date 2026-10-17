@@ -60,7 +60,8 @@ section{
 }
 
 .caixa{
-    max-width: 1000px;
+    width: 95%;
+    max-width: 1300px;
 }
 
 .box_texto{
@@ -109,13 +110,13 @@ ul {
   margin: 0;
 }
 
-/* ------------HISTÓRIA----------- */
+/* ------------PRODUTO----------- */
 
 hr{
     background-color: #E5C271;
     border: none;
     height: 1px;
-    width: 150px;
+    width: 140px;
     
 }
 
@@ -147,47 +148,58 @@ h2{
     margin-bottom: 200px;
 }
 
-.texto1{
+/* -----------AVALIAÇÕES------------- */
+
+.linha_1{
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 60px;
+    align-items: center;
 }
 
-.texto2{
+.linha_1 hr{
+    width: 110px;
+}
+
+.avaliacoes_container{
+    margin: 0 auto;
+    width: 95%;
+    max-width: 1300px;
+}
+
+.container1{
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
+.perfil{
+    background-color: #F5F5F5;
+    width: 310px;
+    height: 410px;
+    padding: 30px;
+}
 
+.topo{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
 
-.paragrafo1{
-    max-width: 490px;
+.perfil_info{
+    display: flex;
+    flex-direction: column;
     font-family: var(--font-secundaria);
-    font-size: 18px;
+    color: #454138;
 }
 
-.paragrafo2{
-    max-width: 490px;
-    font-family: var(--font-secundaria);
-    font-size: 18px;
-}
-
-.imagem1 img{
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.imagem2 img{
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
+.estrelas svg{
+    color: #C79E53;
+    width: 30px;
+    margin-bottom: 20px;
 }
 
 
-    
+
+
 /* -----------RODAPÉ------------- */
 
 footer{

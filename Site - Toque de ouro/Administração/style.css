@@ -10,11 +10,16 @@
 }
 
 :root{
+    background-color: #B86B4B;
+    color: #ffffff;
+}
+
+:root {
     --font-primaria: "Newsreader";
     --font-secundaria: "DM Sans";
 }
 
-h1{
+h1 {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -27,14 +32,28 @@ body{
 }
 
 /* ---------------CABEÇARIO-------------- */
-header{
+
+body {
+    background-color: #F5EFE7;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* ---------------CABEÇARIO-------------- */
+header {
     background-color: #D7DFCC;
     height: 120px;
     display: flex;
     align-items: center;
 }
 
-.logo img{
+
+.logo img {
     width: 350px;
     height: 100px;
     object-fit: cover;
@@ -187,7 +206,6 @@ hr{
     border: none;
     height: 1px;
     width: 150px;
-    
 }
 
 h2{
